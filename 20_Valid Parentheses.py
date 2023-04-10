@@ -64,7 +64,7 @@ class TestSolution(unittest.TestCase):
 
     def setUp(self):
         self.valid_parenthesis = Solution()
-    
+    #intended not write: tearDown(self)
     #test some simple  scenarios
     def testEx1_2_3(self):
 
